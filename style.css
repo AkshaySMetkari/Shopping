@@ -1,0 +1,45 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left:36%;
+    text-align: center;
+    background-image: linear-gradient(rgb(112, 179, 6),rgba(8, 81, 8, 0.792));
+}
+img{
+    width: 290px;
+    height: 290px;
+    margin: 10px 50px 10px 50px;      
+
+}
+p{
+    font-size: 1.1em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+p.rate>del{
+    opacity: 0.4;
+}
+button{
+    margin: 10px 0 20px 0;
+    font-size:1.1em;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px ;
+    border-style: none;
+}
+button:hover{
+    text-transform: uppercase;
+   cursor: pointer;
+   background-color: white;
+   color: black;
+   font-weight: bold;
+}
+img:hover{
+    transform:scale(1.2);
+}
